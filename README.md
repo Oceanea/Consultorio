@@ -1,5 +1,5 @@
 📡 Endpoints API REST - Consultorio Médico
-🧑‍⚕️ Pacientes (/api/patients)
+🧑‍⚕️ Pacientes (/api/pacientes)
 
 
 | Método | Ruta                          | Descripción                |
@@ -11,7 +11,7 @@
 | DELETE | `/api/pacientes/numero de id` | Eliminar paciente por ID   |
 
 
-👨‍⚕️ Médicos (/api/doctors)
+👨‍⚕️ Médicos (/api/medicos)
 | Método | Ruta                        | Descripción              |
 | ------ | --------------------------- | ------------------------ |
 | GET    | `/api/medicos`              | Listar todos los médicos |
@@ -20,7 +20,7 @@
 | PUT    | `/api/medicos/numero de id` | Actualizar médico por ID |
 | DELETE | `/api/medicos/numero de id` | Eliminar médico por ID   |
 
-📅 Citas Médicas (/api/appointments)
+📅 Citas Médicas (/api/citas)
 
 | Método | Ruta                      | Descripción            |
 | ------ | ------------------------- | ---------------------- |
@@ -30,7 +30,7 @@
 | PUT    | `/api/citas/numero de id` | Actualizar cita por ID |
 | DELETE | `/api/citas/numero de id` | Eliminar cita por ID   |
 
-🩺 Consultas Médicas (/api/consultations)
+🩺 Consultas Médicas (/api/consultas)
 
 | Método | Ruta                          | Descripción                |
 | ------ | ----------------------------- | -------------------------- |
